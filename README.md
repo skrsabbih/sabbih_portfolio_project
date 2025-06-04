@@ -31,7 +31,6 @@ Khwaja Yunus Ali University
 | Laravel 12      | React 19     | Filament PHP     |
 | PHP 8.x         | Axios        | Jetstream (optional) |
 | MySQL           | React Hooks  | Laravel Media Library (optional) |
-| Laravel Passport | TypeScript (optional) | - |
 
 ---
 
@@ -50,4 +49,51 @@ Khwaja Yunus Ali University
 ### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/your-username/portfolio-project.git
-cd portfolio-project
+cd sabbih_portfolio-project
+
+### Step 2: Backend Setup (Laravel API)
+cd backend  
+composer install  
+cp .env.example .env  
+php artisan key:generate  
+# Now configure your database credentials in `.env`  
+php artisan migrate  
+php artisan serve  
+➡️ Laravel API will run at: http://127.0.0.1:8000
+
+### Step 3: Frontend Setup (React)
+cd ../frontend  
+npm install  
+npm run dev  
+➡️ React frontend will run at: http://localhost:5173
+
+---
+
+## 📁 Image and CV Storage
+
+Put your images and CV here:  
+`backend/public/images/`
+
+
+---
+
+## ✅ Technologies Used
+
+- Laravel 12 (REST API)
+- React 19 (Frontend)
+- Tailwind CSS (Styling)
+- Axios (API Request)
+- MySQL / MariaDB
+- Vite (React bundler)
+
+---
+
+## 📌 Notes
+
+- Ensure PHP, Composer, Node.js, npm, and MySQL are installed
+- Push only required folders (e.g., `public/images/`) if needed for live server
+- To stop the servers, press `Ctrl + C` in terminal
+
+---
+
+🙏 Thank You!
