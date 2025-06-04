@@ -21,7 +21,7 @@ const Project = () => {
             <div key={project.id} className="bg-white p-6 rounded-lg shadow-md">
               {project.image && (
                 <img
-                  src={`http://localhost:8000/storage/${project.image}`}
+                  src={`http://localhost:8000/images/${project.image}`}
                   alt={project.title}
                   className="w-full h-48 object-cover rounded mb-4"
                 />

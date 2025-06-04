@@ -30,7 +30,7 @@ const About = () => {
               {/* CV Download Button */}
               {about.cv && (
                 <a
-                  href={`http://localhost:8000/storage/${about.cv}`}
+                  href={`http://localhost:8000/images/${about.cv}`}
                   className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -44,7 +44,7 @@ const About = () => {
             {about.image && (
               <div>
                 <img
-                  src={`http://localhost:8000/storage/${about.image}`}
+                  src={`http://localhost:8000/images/${about.image}`}
                   alt="About"
                   className="w-full rounded-lg shadow-lg"
                 />

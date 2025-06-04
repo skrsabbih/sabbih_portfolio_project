@@ -15,7 +15,7 @@ const Hero = () => {
     <section id="home" className="bg-gray-100 py-20">
       <div className="max-w-4xl mx-auto text-center px-4">
         <img
-          src={`http://localhost:8000/storage/${hero.image}`}
+          src={`http://localhost:8000/images/${hero.image}`}
           alt={hero.name}
           className="w-32 h-32 rounded-full mx-auto mb-4"
         />
