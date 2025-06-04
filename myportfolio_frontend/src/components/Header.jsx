@@ -3,7 +3,7 @@ const Header = () => {
   return (
      <header className="bg-white shadow sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-indigo-600">Sabbih PortFolio</h1>
+        <a href="/"><h1 className="text-xl font-bold text-indigo-600">Sabbih PortFolio</h1></a>
         <nav className="space-x-4">
           <a href="#home" className="text-gray-700 hover:text-indigo-600">
             Home
