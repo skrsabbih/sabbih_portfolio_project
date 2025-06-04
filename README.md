@@ -38,9 +38,9 @@ Khwaja Yunus Ali University
 ## 📸 Project Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/skrsabbih/portfolio-project/main/screenshots/hero.png" alt="Hero Section" width="250"/>
-  <img src="https://raw.githubusercontent.com/skrsabbih/portfolio-project/main/screenshots/about.png" alt="About Section" width="250"/>
-  <img src="https://raw.githubusercontent.com/skrsabbih/portfolio-project/main/screenshots/contact.png" alt="Contact Section" width="250"/>
+  <img src="https://raw.githubusercontent.com/skrsabbih/sabbih_portfolio_project/main/myportfolio_backend/public/assets/images/1.png" alt="Hero Section" width="250"/>
+  <img src="https://raw.githubusercontent.com/skrsabbih/sabbih_portfolio_project/main/myportfolio_backend/public/assets/images/2.png" alt="About Section" width="250"/>
+  <img src="https://raw.githubusercontent.com/skrsabbih/sabbih_portfolio_project/main/myportfolio_backend/public/assets/images/3.png" alt="Project Section" width="250"/>
 </p>
 
 ---
